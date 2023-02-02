@@ -3,7 +3,47 @@
 
 
 
-//socials icon css
+/*MAIN HEADING CSS*/
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+ 
+  .heading {
+	text-decoration: none;
+	color: inherit;
+	font-size: 24px;
+  }
+  .heading-para {
+	
+	
+	background: linear-gradient(90deg, #000, #fff, #000);
+	letter-spacing: 5px;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: shine 5s linear infinite;
+	position: relative;
+  }
+  
+  @keyframes shine {
+	0% {
+	  background-position-x: -500%;
+	}
+	100% {
+	  background-position-x: 500%;
+	}
+  }
+  
+
+/*MAIN HEADING ENDS*/
+
+
+
+
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
@@ -64,7 +104,7 @@ body {
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
-//social icon css
+
 
 #sc_gallery-1 {
 	margin: auto;
