@@ -1,3 +1,10 @@
+
+
+
+
+
+//socials icon css
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
   background-color: rgba(0, 181, 245, 0.05);
@@ -57,7 +64,7 @@ body {
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
-
+//social icon css
 
 #sc_gallery-1 {
 	margin: auto;
